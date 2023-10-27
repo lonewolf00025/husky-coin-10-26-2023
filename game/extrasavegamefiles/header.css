@@ -1,0 +1,12 @@
+.h1{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
+.money{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;    
+}

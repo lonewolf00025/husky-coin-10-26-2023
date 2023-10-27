@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div>
+            <p class="title">
+                Husky Coin Clicker
+            </p>
+        </div>
+        <p class="brg">y</p>
+        <div>
+            <a href="1.Easy\easy.html"><button class="button">Easy</button></a>
+            <p class="br">y</p>
+            <a href="2.Medium\Medium.html"><button class="button">Medium</button></a>
+            <p class="br">y</p>
+            <a href="3.Hard\hard.html"><button class="button">Hard</button></a>
+            <p class="br">y</p>
+            <a href="../login.html"><button class="button">Logout (login in as <span id="loginas"></span>)</button></a>
+        </div>
+        <script>
+            var loginas = localStorage.getItem("currentUser");
+            document.getElementById("loginas").innerHTML = loginas
+        </script>
+    </body>
+</html>

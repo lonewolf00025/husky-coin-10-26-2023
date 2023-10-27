@@ -1,0 +1,181 @@
+@media (width <= 209px){
+    img{
+        width: 20px;
+        height: auto;
+        padding: 10px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .button, .timer, .resetgame, .savegame{
+        font-size: 20px;
+    }
+}
+@media (210px <= width <= 350px){
+    img{
+        width: 25px;
+        height: auto;
+        padding: 10px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .button, .timer, .resetgame, .savegame{
+        font-size: 20px;
+    }
+}
+@media (351px <= width <= 768px){
+    img{
+        width: 100px;
+        height: auto;
+        padding: 10px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .button, .timer, .resetgame, .savegame{
+        font-size: 25px;
+    }
+
+}
+
+
+@media (769px <= width <= 1440px){
+    img{
+        width: 10vw;
+        height: auto;
+        padding: 10px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .button, .timer, .resetgame, .savegame{
+        font-size: 30px;
+    }
+}
+
+@media (width > 1440px){
+    img{
+        width: 10vw;
+        height: auto;
+        padding: 10px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    p{
+        font-size: 40px;
+    }
+    .button, .timer, .resetgame, .savegame{
+        font-size: 40px;
+    }
+}
+
+
+body{
+    text-align: center;
+    user-select: none;
+}
+.timer{
+    width: 80%;
+    border-radius: 180px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 10px;
+}
+.savegame{
+    width: 80%;
+    border-radius: 180px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 10px;
+}
+.resetgame{
+    width: 80%;
+    border-radius: 180px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 10px;
+}
+
+.shopbutton{
+    background-color: rgba(211, 211, 211);
+    transition: all 0.2s ease-in-out;
+    border-radius: 180px;
+    border: 5px solid black;
+    width: 80%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    background-color: lightgray;
+}
+#amount{
+    width: 20%;
+    margin-right: 40px;
+}
+#nameAndCost{
+    width: 80%;
+}
+.innergut1{
+    border-radius: 180px 0px 0px 180px;
+}
+.innergut2{
+    border-radius: 0px 180px 180px 0px;
+}
+.button{
+    width: 80%;
+    border-radius: 180px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 10px;
+}
+img{
+    padding: 0px;
+    border-radius: 180px;
+    border:10px solid silver;
+}
+
+.mode{
+    visibility: hidden;
+    font-size: 1px;
+}
+.savegamenumber{
+    visibility: hidden;
+    font-size: 1px;
+}
+
+.extrasettings{
+    visibility: hidden;
+    font-size: 1px; 
+}
+
+.h1{
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    z-index: 1;
+}
+.money{
+    position: sticky;
+    background-color: white;
+    height: 80px;
+    top: 50px;
+    z-index: 1;    
+}
+.tabs{
+    font-size: 20px;
+    position: sticky;
+    top: 100px;
+    background-color: white;
+    z-index: 1;
+}
